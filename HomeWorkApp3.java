@@ -75,7 +75,7 @@ public class HomeWorkApp3 {
     public static  int[] array100(){
 
         int[] mass = new int[100];
-        for(int i = 0; i < mass.length; i++){
+        for(int i = 0; i < mass.length; i++){//Заполняем массив от 0 до 100;
             mass[i] = i;
         }
         return mass;
