@@ -162,7 +162,7 @@ public class HomeWorkApp3 {
                 for(int j = 1; j < arr.length-1; j++){
                     arr[arr.length-j] = arr[arr.length - j - 1];
                 }
-                a[1] = buff;
+                arr[1] = buff;
             }
         }else {}
         System.out.println(Arrays.toString(arr));//не могу понять логику, как действовать в обратном направлении;
